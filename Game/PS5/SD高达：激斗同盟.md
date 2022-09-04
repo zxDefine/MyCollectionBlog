@@ -1,8 +1,8 @@
 # SD高达:激斗同盟
 
 ## 其它译名
-日语:SDガンダム バトルアライアンス
-英语:SD GUNDAM BATTLE ALLIANCE
+日语:SDガンダム バトルアライアンス<br>
+英语:SD GUNDAM BATTLE ALLIANCE<br>
 
 ## PS5
 
