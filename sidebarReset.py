@@ -58,7 +58,7 @@ for file in sortList:
     elif os.path.isfile(file):
         relativePath = file[2:]
         #把basename里面的"%20"替换成" "
-        drawName = os.path.basename(file)
+        drawName = os.path.basename(file)[:-3]
         drawName = drawName.replace("%20", " ")
         str = tabStr + '- [' + drawName + '](' + file[2:] + ')'
 
