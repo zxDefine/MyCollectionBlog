@@ -57,10 +57,7 @@ for file in sortList:
         str = tabStr + '- ' + os.path.basename(file)
     elif os.path.isfile(file):
         relativePath = file[2:]
-        #把basename里面的"%20"替换成" "
-        drawName = os.path.basename(file)[:-3]
-        drawName = drawName.replace("%20", " ")
-        str = tabStr + '- [' + drawName + '](' + file[2:] + ')'
+        str = tabStr + '- [' + os.path.basename(file)[:-3] + '](' + file[2:] + ')'
 
     fh.write(str)
     fh.write('\n')
